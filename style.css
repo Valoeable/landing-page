@@ -1,0 +1,80 @@
+.header{
+    background-color: #1f2937;
+    font-family: 'Permanent Marker', cursive;
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    padding-bottom: 250px;
+}
+
+.header-primary{
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+em{
+    color: #ff0000;
+}
+
+.headerbutton{
+    background-color: #ff0000;
+    color: black;
+    width: 110px;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 10px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.header-secondary{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-between;
+}
+
+.headertext{
+    display: flex;
+    flex-direction: column;
+    color: rgb(168, 168, 168);
+}
+
+h1,p{
+    margin: 0px;
+    width: 500px;
+}
+
+.logo{
+    width: 125px;
+    height: 125px;
+}
+
+body{
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(168, 168, 168);
+    font-size: 18px;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bossimg{
+    border: outset rgb(168, 168, 168) 5px;
+}
+.arrow{
+    align-self: center;
+    color: rgb(168, 168, 168);
+    font-size: 80px;
+}
