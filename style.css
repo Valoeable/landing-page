@@ -1,9 +1,26 @@
 .header{
-    background-color: #1f2937;
     display: flex;
     flex-direction: column;
     gap: 200px;
     padding-bottom: 250px;
+}
+
+.header,
+.footer{
+    background-color: #1f2937;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.copyright{
+    text-align: center;
+    color: rgb(168, 168, 168);
 }
 
 .header-primary{
@@ -18,13 +35,17 @@ em{
     color: #ff0000;
 }
 
-.headerbutton{
+.headerbutton,
+.button{
     background-color: #ff0000;
     color: black;
-    width: 110px;
     border-radius: 8px;
     padding: 5px;
     margin: 10px;
+}
+
+.headerbutton{
+    width: 110px;
 }
 
 .header-secondary{
@@ -84,9 +105,12 @@ h2{
 
 .header,
 .headerbutton,
+.button,
 h2,
 .gangdesc,
-.q{
+.q,
+.rtext,
+.copyright{
     font-family: 'Permanent Marker', cursive;
 }
 
@@ -141,5 +165,26 @@ h2,
     align-self: flex-end;
     font-size: 20px;
 }
+
+.recruit{
+    background-color: #ff0000;
+    margin: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 60px;
+    display: flex;
+    border-radius: 8px;
+    border-color: none;
+}
+
+.rtext{
+    flex: 1;
+}
+
+.boldt{
+    font-weight: 700;
+    font-size: 25px;
+}
+
 
 
