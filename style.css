@@ -1,6 +1,5 @@
 .header{
     background-color: #1f2937;
-    font-family: 'Permanent Marker', cursive;
     display: flex;
     flex-direction: column;
     gap: 200px;
@@ -26,7 +25,6 @@ em{
     border-radius: 8px;
     padding: 5px;
     margin: 10px;
-    font-family: 'Permanent Marker', cursive;
 }
 
 .header-secondary{
@@ -78,3 +76,70 @@ ul{
     color: rgb(168, 168, 168);
     font-size: 80px;
 }
+
+h2{
+    text-align: center;
+    font-size: 36px;
+}
+
+.header,
+.headerbutton,
+h2,
+.gangdesc,
+.q{
+    font-family: 'Permanent Marker', cursive;
+}
+
+.gang
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gang{
+    gap: 22px;
+}
+
+.gangdesc{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    font-size: 20px;
+}
+
+.gmember{
+    border: outset rgb(168, 168, 168) 5px;
+    border-radius: 8px;
+    width:300px;
+    height: 300px;
+}
+
+.mtext{
+    max-width: 250px;
+    margin: 0px;
+    text-align: center;
+    margin-bottom: 125px;
+}
+
+.q{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 100px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.qtext{
+    font-size: 36px;
+    width: 1000px;
+}
+
+.qperson{
+    align-self: flex-end;
+    font-size: 20px;
+}
+
+
